@@ -1,0 +1,1961 @@
+fileFormatVersion: 2
+guid: 8be3bde0c823b4c1998049b3348ea22e
+timeCreated: 1507404280
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Body1
+    100004: Body1 1
+    100006: Body1 10
+    100008: Body1 100
+    100010: Body1 101
+    100012: Body1 102
+    100014: Body1 103
+    100016: Body1 104
+    100018: Body1 105
+    100020: Body1 106
+    100022: Body1 107
+    100024: Body1 108
+    100026: Body1 109
+    100028: Body1 11
+    100030: Body1 110
+    100032: Body1 111
+    100034: Body1 112
+    100036: Body1 113
+    100038: Body1 114
+    100040: Body1 115
+    100042: Body1 116
+    100044: Body1 117
+    100046: Body1 118
+    100048: Body1 119
+    100050: Body1 12
+    100052: Body1 120
+    100054: Body1 121
+    100056: Body1 122
+    100058: Body1 123
+    100060: Body1 124
+    100062: Body1 125
+    100064: Body1 126
+    100066: Body1 127
+    100068: Body1 128
+    100070: Body1 129
+    100072: Body1 13
+    100074: Body1 130
+    100076: Body1 131
+    100078: Body1 132
+    100080: Body1 133
+    100082: Body1 134
+    100084: Body1 135
+    100086: Body1 136
+    100088: Body1 137
+    100090: Body1 138
+    100092: Body1 139
+    100094: Body1 14
+    100096: Body1 140
+    100098: Body1 141
+    100100: Body1 142
+    100102: Body1 143
+    100104: Body1 144
+    100106: Body1 145
+    100108: Body1 146
+    100110: Body1 147
+    100112: Body1 148
+    100114: Body1 149
+    100116: Body1 15
+    100118: Body1 150
+    100120: Body1 151
+    100122: Body1 152
+    100124: Body1 153
+    100126: Body1 154
+    100128: Body1 155
+    100130: Body1 156
+    100132: Body1 157
+    100134: Body1 158
+    100136: Body1 159
+    100138: Body1 16
+    100140: Body1 160
+    100142: Body1 161
+    100144: Body1 162
+    100146: Body1 163
+    100148: Body1 164
+    100150: Body1 165
+    100152: Body1 166
+    100154: Body1 167
+    100156: Body1 168
+    100158: Body1 169
+    100160: Body1 17
+    100162: Body1 170
+    100164: Body1 171
+    100166: Body1 172
+    100168: Body1 173
+    100170: Body1 174
+    100172: Body1 175
+    100174: Body1 176
+    100176: Body1 177
+    100178: Body1 178
+    100180: Body1 179
+    100182: Body1 18
+    100184: Body1 180
+    100186: Body1 181
+    100188: Body1 182
+    100190: Body1 183
+    100192: Body1 184
+    100194: Body1 185
+    100196: Body1 186
+    100198: Body1 187
+    100200: Body1 19
+    100202: Body1 2
+    100204: Body1 20
+    100206: Body1 21
+    100208: Body1 22
+    100210: Body1 23
+    100212: Body1 24
+    100214: Body1 25
+    100216: Body1 26
+    100218: Body1 27
+    100220: Body1 28
+    100222: Body1 29
+    100224: Body1 3
+    100226: Body1 30
+    100228: Body1 31
+    100230: Body1 32
+    100232: Body1 33
+    100234: Body1 34
+    100236: Body1 35
+    100238: Body1 36
+    100240: Body1 37
+    100242: Body1 38
+    100244: Body1 39
+    100246: Body1 4
+    100248: Body1 40
+    100250: Body1 41
+    100252: Body1 42
+    100254: Body1 43
+    100256: Body1 44
+    100258: Body1 45
+    100260: Body1 46
+    100262: Body1 47
+    100264: Body1 48
+    100266: Body1 49
+    100268: Body1 5
+    100270: Body1 50
+    100272: Body1 51
+    100274: Body1 52
+    100276: Body1 53
+    100278: Body1 54
+    100280: Body1 55
+    100282: Body1 56
+    100284: Body1 57
+    100286: Body1 58
+    100288: Body1 59
+    100290: Body1 6
+    100292: Body1 60
+    100294: Body1 61
+    100296: Body1 62
+    100298: Body1 63
+    100300: Body1 64
+    100302: Body1 65
+    100304: Body1 66
+    100306: Body1 67
+    100308: Body1 68
+    100310: Body1 69
+    100312: Body1 7
+    100314: Body1 70
+    100316: Body1 71
+    100318: Body1 72
+    100320: Body1 73
+    100322: Body1 74
+    100324: Body1 75
+    100326: Body1 76
+    100328: Body1 77
+    100330: Body1 78
+    100332: Body1 79
+    100334: Body1 8
+    100336: Body1 80
+    100338: Body1 81
+    100340: Body1 82
+    100342: Body1 83
+    100344: Body1 84
+    100346: Body1 85
+    100348: Body1 86
+    100350: Body1 87
+    100352: Body1 88
+    100354: Body1 89
+    100356: Body1 9
+    100358: Body1 90
+    100360: Body1 91
+    100362: Body1 92
+    100364: Body1 93
+    100366: Body1 94
+    100368: Body1 95
+    100370: Body1 96
+    100372: Body1 97
+    100374: Body1 98
+    100376: Body1 99
+    100378: Body2
+    100380: Body2 1
+    100382: Body2 2
+    100384: Body2 3
+    100386: Body2 4
+    100388: Body5
+    100390: Bolt_Long v5
+    100392: Bolt_Long v5 1
+    100394: Bolt_Long v5 10
+    100396: Bolt_Long v5 11
+    100398: Bolt_Long v5 12
+    100400: Bolt_Long v5 13
+    100402: Bolt_Long v5 14
+    100404: Bolt_Long v5 15
+    100406: Bolt_Long v5 16
+    100408: Bolt_Long v5 17
+    100410: Bolt_Long v5 18
+    100412: Bolt_Long v5 19
+    100414: Bolt_Long v5 2
+    100416: Bolt_Long v5 20
+    100418: Bolt_Long v5 21
+    100420: Bolt_Long v5 22
+    100422: Bolt_Long v5 23
+    100424: Bolt_Long v5 24
+    100426: Bolt_Long v5 25
+    100428: Bolt_Long v5 26
+    100430: Bolt_Long v5 27
+    100432: Bolt_Long v5 28
+    100434: Bolt_Long v5 29
+    100436: Bolt_Long v5 3
+    100438: Bolt_Long v5 30
+    100440: Bolt_Long v5 31
+    100442: Bolt_Long v5 32
+    100444: Bolt_Long v5 33
+    100446: Bolt_Long v5 34
+    100448: Bolt_Long v5 35
+    100450: Bolt_Long v5 36
+    100452: Bolt_Long v5 37
+    100454: Bolt_Long v5 38
+    100456: Bolt_Long v5 39
+    100458: Bolt_Long v5 4
+    100460: Bolt_Long v5 40
+    100462: Bolt_Long v5 41
+    100464: Bolt_Long v5 42
+    100466: Bolt_Long v5 43
+    100468: Bolt_Long v5 44
+    100470: Bolt_Long v5 45
+    100472: Bolt_Long v5 46
+    100474: Bolt_Long v5 47
+    100476: Bolt_Long v5 48
+    100478: Bolt_Long v5 49
+    100480: Bolt_Long v5 5
+    100482: Bolt_Long v5 50
+    100484: Bolt_Long v5 51
+    100486: Bolt_Long v5 52
+    100488: Bolt_Long v5 53
+    100490: Bolt_Long v5 54
+    100492: Bolt_Long v5 55
+    100494: Bolt_Long v5 56
+    100496: Bolt_Long v5 6
+    100498: Bolt_Long v5 7
+    100500: Bolt_Long v5 8
+    100502: Bolt_Long v5 9
+    100504: Bolt_Long v5:1
+    100506: Bolt_Long v5:1 1
+    100508: Bolt_Long v5:10
+    100510: Bolt_Long v5:10 1
+    100512: Bolt_Long v5:11
+    100514: Bolt_Long v5:12
+    100516: Bolt_Long v5:12 1
+    100518: Bolt_Long v5:13
+    100520: Bolt_Long v5:13 1
+    100522: Bolt_Long v5:14
+    100524: Bolt_Long v5:14 1
+    100526: Bolt_Long v5:15
+    100528: Bolt_Long v5:15 1
+    100530: Bolt_Long v5:16
+    100532: Bolt_Long v5:16 1
+    100534: Bolt_Long v5:17
+    100536: Bolt_Long v5:17 1
+    100538: Bolt_Long v5:18
+    100540: Bolt_Long v5:18 1
+    100542: Bolt_Long v5:19
+    100544: Bolt_Long v5:19 1
+    100546: Bolt_Long v5:2
+    100548: Bolt_Long v5:2 1
+    100550: Bolt_Long v5:20
+    100552: Bolt_Long v5:20 1
+    100554: Bolt_Long v5:21
+    100556: Bolt_Long v5:21 1
+    100558: Bolt_Long v5:22
+    100560: Bolt_Long v5:22 1
+    100562: Bolt_Long v5:23
+    100564: Bolt_Long v5:23 1
+    100566: Bolt_Long v5:24
+    100568: Bolt_Long v5:25
+    100570: Bolt_Long v5:26
+    100572: Bolt_Long v5:27
+    100574: Bolt_Long v5:28
+    100576: Bolt_Long v5:29
+    100578: Bolt_Long v5:3
+    100580: Bolt_Long v5:3 1
+    100582: Bolt_Long v5:30
+    100584: Bolt_Long v5:31
+    100586: Bolt_Long v5:32
+    100588: Bolt_Long v5:33
+    100590: Bolt_Long v5:34
+    100592: Bolt_Long v5:35
+    100594: Bolt_Long v5:4
+    100596: Bolt_Long v5:4 1
+    100598: Bolt_Long v5:5
+    100600: Bolt_Long v5:5 1
+    100602: Bolt_Long v5:6
+    100604: Bolt_Long v5:6 1
+    100606: Bolt_Long v5:7
+    100608: Bolt_Long v5:7 1
+    100610: Bolt_Long v5:8
+    100612: Bolt_Long v5:8 1
+    100614: Bolt_Long v5:9
+    100616: Bolt_Long v5:9 1
+    100618: Bolt_Short v1
+    100620: Bolt_Short v1 1
+    100622: Bolt_Short v1 10
+    100624: Bolt_Short v1 11
+    100626: Bolt_Short v1 12
+    100628: Bolt_Short v1 13
+    100630: Bolt_Short v1 14
+    100632: Bolt_Short v1 15
+    100634: Bolt_Short v1 16
+    100636: Bolt_Short v1 17
+    100638: Bolt_Short v1 18
+    100640: Bolt_Short v1 19
+    100642: Bolt_Short v1 2
+    100644: Bolt_Short v1 20
+    100646: Bolt_Short v1 21
+    100648: Bolt_Short v1 22
+    100650: Bolt_Short v1 23
+    100652: Bolt_Short v1 24
+    100654: Bolt_Short v1 25
+    100656: Bolt_Short v1 26
+    100658: Bolt_Short v1 27
+    100660: Bolt_Short v1 28
+    100662: Bolt_Short v1 29
+    100664: Bolt_Short v1 3
+    100666: Bolt_Short v1 30
+    100668: Bolt_Short v1 31
+    100670: Bolt_Short v1 32
+    100672: Bolt_Short v1 33
+    100674: Bolt_Short v1 34
+    100676: Bolt_Short v1 35
+    100678: Bolt_Short v1 36
+    100680: Bolt_Short v1 37
+    100682: Bolt_Short v1 38
+    100684: Bolt_Short v1 39
+    100686: Bolt_Short v1 4
+    100688: Bolt_Short v1 5
+    100690: Bolt_Short v1 6
+    100692: Bolt_Short v1 7
+    100694: Bolt_Short v1 8
+    100696: Bolt_Short v1 9
+    100698: Bolt_Short v1:1
+    100700: Bolt_Short v1:10
+    100702: Bolt_Short v1:11
+    100704: Bolt_Short v1:12
+    100706: Bolt_Short v1:13
+    100708: Bolt_Short v1:14
+    100710: Bolt_Short v1:15
+    100712: Bolt_Short v1:16
+    100714: Bolt_Short v1:17
+    100716: Bolt_Short v1:18
+    100718: Bolt_Short v1:19
+    100720: Bolt_Short v1:2
+    100722: Bolt_Short v1:20
+    100724: Bolt_Short v1:21
+    100726: Bolt_Short v1:22
+    100728: Bolt_Short v1:23
+    100730: Bolt_Short v1:24
+    100732: Bolt_Short v1:25
+    100734: Bolt_Short v1:26
+    100736: Bolt_Short v1:27
+    100738: Bolt_Short v1:28
+    100740: Bolt_Short v1:29
+    100742: Bolt_Short v1:3
+    100744: Bolt_Short v1:30
+    100746: Bolt_Short v1:31
+    100748: Bolt_Short v1:32
+    100750: Bolt_Short v1:33
+    100752: Bolt_Short v1:34
+    100754: Bolt_Short v1:35
+    100756: Bolt_Short v1:36
+    100758: Bolt_Short v1:37
+    100760: Bolt_Short v1:38
+    100762: Bolt_Short v1:39
+    100764: Bolt_Short v1:4
+    100766: Bolt_Short v1:40
+    100768: Bolt_Short v1:5
+    100770: Bolt_Short v1:6
+    100772: Bolt_Short v1:7
+    100774: Bolt_Short v1:8
+    100776: Bolt_Short v1:9
+    100778: BottomPart
+    100780: ClawHolder
+    100782: ClawPart v1
+    100784: ClawPart v1:1
+    100786: Component1
+    100788: Component1 1
+    100790: Component1 2
+    100792: Component12
+    100794: Component12:1
+    100796: Component1:1
+    100798: Component1:1 1
+    100800: Component1:1 2
+    100802: Component4
+    100804: Component4:1
+    100806: Component5
+    100808: Component5:1
+    100810: Component6
+    100812: Component6:1
+    100814: Component_practice v4
+    100816: Component_practice v4:1
+    100818: distancer
+    100820: distancer (1)
+    100822: distancer (1) 1
+    100824: distancer (1):1
+    100826: distancer (1):2
+    100828: distancer:1
+    100830: Distancers_high
+    100832: Distancers_high:1
+    100834: Grip
+    100836: Grip:1
+    100838: L_Shaped
+    100840: L_Shaped:1
+    100842: LeftClaw
+    100844: LeftClaw (1)
+    100846: LeftClaw (1):1
+    100848: LeftClaw:1
+    100850: LeftLinker
+    100852: LeftLinker:1
+    100854: Long U-type servo bracket
+    100856: Long U-type servo bracket 1
+    100858: Long U-type servo bracket 2
+    100860: Long U-type servo bracket 3
+    100862: Long U-type servo bracket v13
+    100864: Long U-type servo bracket v13 1
+    100866: Long U-type servo bracket v13 2
+    100868: Long U-type servo bracket v13 3
+    100870: Long U-type servo bracket v13:1
+    100872: Long U-type servo bracket v13:2
+    100874: Long U-type servo bracket v13:3
+    100876: Long U-type servo bracket v13:4
+    100878: LowerMounter
+    100880: LowerMounter:1
+    100882: MainBody
+    100884: MainBody:1
+    100886: MainFrame
+    100888: MainFrame:1
+    100890: MiddlePart
+    100892: mini_bearing v2
+    100894: mini_bearing v2 1
+    100896: mini_bearing v2 2
+    100898: mini_bearing v2:1
+    100900: mini_bearing v2:2
+    100902: mini_bearing v2:3
+    100904: Mounter
+    100906: Mounter:1
+    100908: Nut v2
+    100910: Nut v2 1
+    100912: Nut v2 10
+    100914: Nut v2 11
+    100916: Nut v2 12
+    100918: Nut v2 13
+    100920: Nut v2 14
+    100922: Nut v2 15
+    100924: Nut v2 16
+    100926: Nut v2 17
+    100928: Nut v2 18
+    100930: Nut v2 19
+    100932: Nut v2 2
+    100934: Nut v2 20
+    100936: Nut v2 21
+    100938: Nut v2 22
+    100940: Nut v2 23
+    100942: Nut v2 24
+    100944: Nut v2 25
+    100946: Nut v2 26
+    100948: Nut v2 27
+    100950: Nut v2 28
+    100952: Nut v2 29
+    100954: Nut v2 3
+    100956: Nut v2 30
+    100958: Nut v2 31
+    100960: Nut v2 32
+    100962: Nut v2 33
+    100964: Nut v2 34
+    100966: Nut v2 35
+    100968: Nut v2 36
+    100970: Nut v2 37
+    100972: Nut v2 38
+    100974: Nut v2 39
+    100976: Nut v2 4
+    100978: Nut v2 40
+    100980: Nut v2 41
+    100982: Nut v2 42
+    100984: Nut v2 43
+    100986: Nut v2 44
+    100988: Nut v2 45
+    100990: Nut v2 46
+    100992: Nut v2 47
+    100994: Nut v2 48
+    100996: Nut v2 49
+    100998: Nut v2 5
+    101000: Nut v2 50
+    101002: Nut v2 51
+    101004: Nut v2 52
+    101006: Nut v2 53
+    101008: Nut v2 54
+    101010: Nut v2 55
+    101012: Nut v2 56
+    101014: Nut v2 57
+    101016: Nut v2 58
+    101018: Nut v2 59
+    101020: Nut v2 6
+    101022: Nut v2 60
+    101024: Nut v2 61
+    101026: Nut v2 7
+    101028: Nut v2 8
+    101030: Nut v2 9
+    101032: Nut v2:1
+    101034: Nut v2:1 1
+    101036: Nut v2:10
+    101038: Nut v2:10 1
+    101040: Nut v2:11
+    101042: Nut v2:11 1
+    101044: Nut v2:12
+    101046: Nut v2:13
+    101048: Nut v2:14
+    101050: Nut v2:15
+    101052: Nut v2:16
+    101054: Nut v2:17
+    101056: Nut v2:18
+    101058: Nut v2:19
+    101060: Nut v2:2
+    101062: Nut v2:2 1
+    101064: Nut v2:20
+    101066: Nut v2:21
+    101068: Nut v2:22
+    101070: Nut v2:23
+    101072: Nut v2:24
+    101074: Nut v2:25
+    101076: Nut v2:26
+    101078: Nut v2:27
+    101080: Nut v2:28
+    101082: Nut v2:29
+    101084: Nut v2:3
+    101086: Nut v2:3 1
+    101088: Nut v2:30
+    101090: Nut v2:31
+    101092: Nut v2:32
+    101094: Nut v2:33
+    101096: Nut v2:34
+    101098: Nut v2:35
+    101100: Nut v2:36
+    101102: Nut v2:37
+    101104: Nut v2:38
+    101106: Nut v2:39
+    101108: Nut v2:4
+    101110: Nut v2:4 1
+    101112: Nut v2:40
+    101114: Nut v2:41
+    101116: Nut v2:42
+    101118: Nut v2:43
+    101120: Nut v2:44
+    101122: Nut v2:45
+    101124: Nut v2:46
+    101126: Nut v2:47
+    101128: Nut v2:48
+    101130: Nut v2:49
+    101132: Nut v2:5
+    101134: Nut v2:5 1
+    101136: Nut v2:50
+    101138: Nut v2:51
+    101140: Nut v2:6
+    101142: Nut v2:6 1
+    101144: Nut v2:7
+    101146: Nut v2:7 1
+    101148: Nut v2:8
+    101150: Nut v2:8 1
+    101152: Nut v2:9
+    101154: Nut v2:9 1
+    101156: P_Shaped_component v5
+    101158: P_Shaped_component v5 1
+    101160: P_Shaped_component v5 2
+    101162: P_Shaped_component v5:1
+    101164: P_Shaped_component v5:2
+    101166: P_Shaped_component v5:3
+    101168: RightLinker
+    101170: RightLinker:1
+    101172: Rotator
+    101174: Rotator:1
+    101176: Servo_horns
+    101178: Servo_horns 1
+    101180: Servo_horns 2
+    101182: Servo_horns 3
+    101184: Servo_horns 4
+    101186: Servo_horns 5
+    101188: Servo_horns:1
+    101190: Servo_horns:1 1
+    101192: Servo_horns:1 2
+    101194: Servo_horns:1 3
+    101196: Servo_horns:1 4
+    101198: Servo_horns:1 5
+    101200: ServoBody
+    101202: ServoBody 1
+    101204: ServoBody 2
+    101206: ServoBody 3
+    101208: ServoBody 4
+    101210: ServoCorpus
+    101212: ServoCorpus 1
+    101214: ServoCorpus 2
+    101216: ServoCorpus 3
+    101218: ServoCorpus 4
+    101220: ServoCorpus 5
+    101222: ServoCorpus:1
+    101224: ServoCorpus:1 1
+    101226: ServoCorpus:1 2
+    101228: ServoCorpus:1 3
+    101230: ServoCorpus:1 4
+    101232: ServoCorpus:1 5
+    101234: ServoHorns v4
+    101236: ServoHorns v4 1
+    101238: ServoHorns v4 2
+    101240: ServoHorns v4 3
+    101242: ServoHorns v4 4
+    101244: ServoHorns v4:1
+    101246: ServoHorns v4:2
+    101248: ServoHorns v4:3
+    101250: ServoHorns v4:4
+    101252: ServoHorns v4:5
+    101254: ServoTip
+    101256: ServoTip 1
+    101258: ServoTip 2
+    101260: ServoTip 3
+    101262: ServoTip 4
+    101264: ServoTip 5
+    101266: ServoTowerPro v12
+    101268: ServoTowerPro v12:1
+    101270: ServoTowerPro v13
+    101272: ServoTowerPro v13 1
+    101274: ServoTowerPro v13 2
+    101276: ServoTowerPro v13 3
+    101278: ServoTowerPro v13 4
+    101280: ServoTowerPro v13:1
+    101282: ServoTowerPro v13:2
+    101284: ServoTowerPro v13:3
+    101286: ServoTowerPro v13:4
+    101288: ServoTowerPro v13:5
+    101290: TowerPro MG 996R
+    101292: TowerPro MG 996R 1
+    101294: TowerPro MG 996R 2
+    101296: TowerPro MG 996R 3
+    101298: TowerPro MG 996R 4
+    101300: TowerPro MG 996R 5
+    101302: TowerPro MG 996R:1
+    101304: TowerPro MG 996R:1 1
+    101306: TowerPro MG 996R:1 2
+    101308: TowerPro MG 996R:1 3
+    101310: TowerPro MG 996R:1 4
+    101312: TowerPro MG 996R:1 5
+    101314: unique_piece
+    101316: unique_piece 1
+    101318: unique_piece 2
+    101320: unique_piece 3
+    101322: unique_piece 4
+    101324: unique_piece v8
+    101326: unique_piece v8 1
+    101328: unique_piece v8 2
+    101330: unique_piece v8 3
+    101332: unique_piece v8 4
+    101334: unique_piece v8:1
+    101336: unique_piece v8:2
+    101338: unique_piece v8:3
+    101340: unique_piece v8:4
+    101342: unique_piece v8:5
+    101344: unique_piece:1
+    101346: unique_piece:1 1
+    101348: unique_piece:1 2
+    101350: unique_piece:1 3
+    101352: unique_piece:1 4
+    101354: UpperMounter
+    101356: UpperMounter:1
+    101358: UpperPart
+    101360: WireEntry
+    101362: WireEntry 1
+    101364: WireEntry 2
+    101366: WireEntry 3
+    101368: WireEntry 4
+    101370: Wires
+    101372: Wires 1
+    101374: Wires 2
+    101376: Wires 3
+    101378: Wires 4
+    400000: //RootNode
+    400002: Body1
+    400004: Body1 1
+    400006: Body1 10
+    400008: Body1 100
+    400010: Body1 101
+    400012: Body1 102
+    400014: Body1 103
+    400016: Body1 104
+    400018: Body1 105
+    400020: Body1 106
+    400022: Body1 107
+    400024: Body1 108
+    400026: Body1 109
+    400028: Body1 11
+    400030: Body1 110
+    400032: Body1 111
+    400034: Body1 112
+    400036: Body1 113
+    400038: Body1 114
+    400040: Body1 115
+    400042: Body1 116
+    400044: Body1 117
+    400046: Body1 118
+    400048: Body1 119
+    400050: Body1 12
+    400052: Body1 120
+    400054: Body1 121
+    400056: Body1 122
+    400058: Body1 123
+    400060: Body1 124
+    400062: Body1 125
+    400064: Body1 126
+    400066: Body1 127
+    400068: Body1 128
+    400070: Body1 129
+    400072: Body1 13
+    400074: Body1 130
+    400076: Body1 131
+    400078: Body1 132
+    400080: Body1 133
+    400082: Body1 134
+    400084: Body1 135
+    400086: Body1 136
+    400088: Body1 137
+    400090: Body1 138
+    400092: Body1 139
+    400094: Body1 14
+    400096: Body1 140
+    400098: Body1 141
+    400100: Body1 142
+    400102: Body1 143
+    400104: Body1 144
+    400106: Body1 145
+    400108: Body1 146
+    400110: Body1 147
+    400112: Body1 148
+    400114: Body1 149
+    400116: Body1 15
+    400118: Body1 150
+    400120: Body1 151
+    400122: Body1 152
+    400124: Body1 153
+    400126: Body1 154
+    400128: Body1 155
+    400130: Body1 156
+    400132: Body1 157
+    400134: Body1 158
+    400136: Body1 159
+    400138: Body1 16
+    400140: Body1 160
+    400142: Body1 161
+    400144: Body1 162
+    400146: Body1 163
+    400148: Body1 164
+    400150: Body1 165
+    400152: Body1 166
+    400154: Body1 167
+    400156: Body1 168
+    400158: Body1 169
+    400160: Body1 17
+    400162: Body1 170
+    400164: Body1 171
+    400166: Body1 172
+    400168: Body1 173
+    400170: Body1 174
+    400172: Body1 175
+    400174: Body1 176
+    400176: Body1 177
+    400178: Body1 178
+    400180: Body1 179
+    400182: Body1 18
+    400184: Body1 180
+    400186: Body1 181
+    400188: Body1 182
+    400190: Body1 183
+    400192: Body1 184
+    400194: Body1 185
+    400196: Body1 186
+    400198: Body1 187
+    400200: Body1 19
+    400202: Body1 2
+    400204: Body1 20
+    400206: Body1 21
+    400208: Body1 22
+    400210: Body1 23
+    400212: Body1 24
+    400214: Body1 25
+    400216: Body1 26
+    400218: Body1 27
+    400220: Body1 28
+    400222: Body1 29
+    400224: Body1 3
+    400226: Body1 30
+    400228: Body1 31
+    400230: Body1 32
+    400232: Body1 33
+    400234: Body1 34
+    400236: Body1 35
+    400238: Body1 36
+    400240: Body1 37
+    400242: Body1 38
+    400244: Body1 39
+    400246: Body1 4
+    400248: Body1 40
+    400250: Body1 41
+    400252: Body1 42
+    400254: Body1 43
+    400256: Body1 44
+    400258: Body1 45
+    400260: Body1 46
+    400262: Body1 47
+    400264: Body1 48
+    400266: Body1 49
+    400268: Body1 5
+    400270: Body1 50
+    400272: Body1 51
+    400274: Body1 52
+    400276: Body1 53
+    400278: Body1 54
+    400280: Body1 55
+    400282: Body1 56
+    400284: Body1 57
+    400286: Body1 58
+    400288: Body1 59
+    400290: Body1 6
+    400292: Body1 60
+    400294: Body1 61
+    400296: Body1 62
+    400298: Body1 63
+    400300: Body1 64
+    400302: Body1 65
+    400304: Body1 66
+    400306: Body1 67
+    400308: Body1 68
+    400310: Body1 69
+    400312: Body1 7
+    400314: Body1 70
+    400316: Body1 71
+    400318: Body1 72
+    400320: Body1 73
+    400322: Body1 74
+    400324: Body1 75
+    400326: Body1 76
+    400328: Body1 77
+    400330: Body1 78
+    400332: Body1 79
+    400334: Body1 8
+    400336: Body1 80
+    400338: Body1 81
+    400340: Body1 82
+    400342: Body1 83
+    400344: Body1 84
+    400346: Body1 85
+    400348: Body1 86
+    400350: Body1 87
+    400352: Body1 88
+    400354: Body1 89
+    400356: Body1 9
+    400358: Body1 90
+    400360: Body1 91
+    400362: Body1 92
+    400364: Body1 93
+    400366: Body1 94
+    400368: Body1 95
+    400370: Body1 96
+    400372: Body1 97
+    400374: Body1 98
+    400376: Body1 99
+    400378: Body2
+    400380: Body2 1
+    400382: Body2 2
+    400384: Body2 3
+    400386: Body2 4
+    400388: Body5
+    400390: Bolt_Long v5
+    400392: Bolt_Long v5 1
+    400394: Bolt_Long v5 10
+    400396: Bolt_Long v5 11
+    400398: Bolt_Long v5 12
+    400400: Bolt_Long v5 13
+    400402: Bolt_Long v5 14
+    400404: Bolt_Long v5 15
+    400406: Bolt_Long v5 16
+    400408: Bolt_Long v5 17
+    400410: Bolt_Long v5 18
+    400412: Bolt_Long v5 19
+    400414: Bolt_Long v5 2
+    400416: Bolt_Long v5 20
+    400418: Bolt_Long v5 21
+    400420: Bolt_Long v5 22
+    400422: Bolt_Long v5 23
+    400424: Bolt_Long v5 24
+    400426: Bolt_Long v5 25
+    400428: Bolt_Long v5 26
+    400430: Bolt_Long v5 27
+    400432: Bolt_Long v5 28
+    400434: Bolt_Long v5 29
+    400436: Bolt_Long v5 3
+    400438: Bolt_Long v5 30
+    400440: Bolt_Long v5 31
+    400442: Bolt_Long v5 32
+    400444: Bolt_Long v5 33
+    400446: Bolt_Long v5 34
+    400448: Bolt_Long v5 35
+    400450: Bolt_Long v5 36
+    400452: Bolt_Long v5 37
+    400454: Bolt_Long v5 38
+    400456: Bolt_Long v5 39
+    400458: Bolt_Long v5 4
+    400460: Bolt_Long v5 40
+    400462: Bolt_Long v5 41
+    400464: Bolt_Long v5 42
+    400466: Bolt_Long v5 43
+    400468: Bolt_Long v5 44
+    400470: Bolt_Long v5 45
+    400472: Bolt_Long v5 46
+    400474: Bolt_Long v5 47
+    400476: Bolt_Long v5 48
+    400478: Bolt_Long v5 49
+    400480: Bolt_Long v5 5
+    400482: Bolt_Long v5 50
+    400484: Bolt_Long v5 51
+    400486: Bolt_Long v5 52
+    400488: Bolt_Long v5 53
+    400490: Bolt_Long v5 54
+    400492: Bolt_Long v5 55
+    400494: Bolt_Long v5 56
+    400496: Bolt_Long v5 6
+    400498: Bolt_Long v5 7
+    400500: Bolt_Long v5 8
+    400502: Bolt_Long v5 9
+    400504: Bolt_Long v5:1
+    400506: Bolt_Long v5:1 1
+    400508: Bolt_Long v5:10
+    400510: Bolt_Long v5:10 1
+    400512: Bolt_Long v5:11
+    400514: Bolt_Long v5:12
+    400516: Bolt_Long v5:12 1
+    400518: Bolt_Long v5:13
+    400520: Bolt_Long v5:13 1
+    400522: Bolt_Long v5:14
+    400524: Bolt_Long v5:14 1
+    400526: Bolt_Long v5:15
+    400528: Bolt_Long v5:15 1
+    400530: Bolt_Long v5:16
+    400532: Bolt_Long v5:16 1
+    400534: Bolt_Long v5:17
+    400536: Bolt_Long v5:17 1
+    400538: Bolt_Long v5:18
+    400540: Bolt_Long v5:18 1
+    400542: Bolt_Long v5:19
+    400544: Bolt_Long v5:19 1
+    400546: Bolt_Long v5:2
+    400548: Bolt_Long v5:2 1
+    400550: Bolt_Long v5:20
+    400552: Bolt_Long v5:20 1
+    400554: Bolt_Long v5:21
+    400556: Bolt_Long v5:21 1
+    400558: Bolt_Long v5:22
+    400560: Bolt_Long v5:22 1
+    400562: Bolt_Long v5:23
+    400564: Bolt_Long v5:23 1
+    400566: Bolt_Long v5:24
+    400568: Bolt_Long v5:25
+    400570: Bolt_Long v5:26
+    400572: Bolt_Long v5:27
+    400574: Bolt_Long v5:28
+    400576: Bolt_Long v5:29
+    400578: Bolt_Long v5:3
+    400580: Bolt_Long v5:3 1
+    400582: Bolt_Long v5:30
+    400584: Bolt_Long v5:31
+    400586: Bolt_Long v5:32
+    400588: Bolt_Long v5:33
+    400590: Bolt_Long v5:34
+    400592: Bolt_Long v5:35
+    400594: Bolt_Long v5:4
+    400596: Bolt_Long v5:4 1
+    400598: Bolt_Long v5:5
+    400600: Bolt_Long v5:5 1
+    400602: Bolt_Long v5:6
+    400604: Bolt_Long v5:6 1
+    400606: Bolt_Long v5:7
+    400608: Bolt_Long v5:7 1
+    400610: Bolt_Long v5:8
+    400612: Bolt_Long v5:8 1
+    400614: Bolt_Long v5:9
+    400616: Bolt_Long v5:9 1
+    400618: Bolt_Short v1
+    400620: Bolt_Short v1 1
+    400622: Bolt_Short v1 10
+    400624: Bolt_Short v1 11
+    400626: Bolt_Short v1 12
+    400628: Bolt_Short v1 13
+    400630: Bolt_Short v1 14
+    400632: Bolt_Short v1 15
+    400634: Bolt_Short v1 16
+    400636: Bolt_Short v1 17
+    400638: Bolt_Short v1 18
+    400640: Bolt_Short v1 19
+    400642: Bolt_Short v1 2
+    400644: Bolt_Short v1 20
+    400646: Bolt_Short v1 21
+    400648: Bolt_Short v1 22
+    400650: Bolt_Short v1 23
+    400652: Bolt_Short v1 24
+    400654: Bolt_Short v1 25
+    400656: Bolt_Short v1 26
+    400658: Bolt_Short v1 27
+    400660: Bolt_Short v1 28
+    400662: Bolt_Short v1 29
+    400664: Bolt_Short v1 3
+    400666: Bolt_Short v1 30
+    400668: Bolt_Short v1 31
+    400670: Bolt_Short v1 32
+    400672: Bolt_Short v1 33
+    400674: Bolt_Short v1 34
+    400676: Bolt_Short v1 35
+    400678: Bolt_Short v1 36
+    400680: Bolt_Short v1 37
+    400682: Bolt_Short v1 38
+    400684: Bolt_Short v1 39
+    400686: Bolt_Short v1 4
+    400688: Bolt_Short v1 5
+    400690: Bolt_Short v1 6
+    400692: Bolt_Short v1 7
+    400694: Bolt_Short v1 8
+    400696: Bolt_Short v1 9
+    400698: Bolt_Short v1:1
+    400700: Bolt_Short v1:10
+    400702: Bolt_Short v1:11
+    400704: Bolt_Short v1:12
+    400706: Bolt_Short v1:13
+    400708: Bolt_Short v1:14
+    400710: Bolt_Short v1:15
+    400712: Bolt_Short v1:16
+    400714: Bolt_Short v1:17
+    400716: Bolt_Short v1:18
+    400718: Bolt_Short v1:19
+    400720: Bolt_Short v1:2
+    400722: Bolt_Short v1:20
+    400724: Bolt_Short v1:21
+    400726: Bolt_Short v1:22
+    400728: Bolt_Short v1:23
+    400730: Bolt_Short v1:24
+    400732: Bolt_Short v1:25
+    400734: Bolt_Short v1:26
+    400736: Bolt_Short v1:27
+    400738: Bolt_Short v1:28
+    400740: Bolt_Short v1:29
+    400742: Bolt_Short v1:3
+    400744: Bolt_Short v1:30
+    400746: Bolt_Short v1:31
+    400748: Bolt_Short v1:32
+    400750: Bolt_Short v1:33
+    400752: Bolt_Short v1:34
+    400754: Bolt_Short v1:35
+    400756: Bolt_Short v1:36
+    400758: Bolt_Short v1:37
+    400760: Bolt_Short v1:38
+    400762: Bolt_Short v1:39
+    400764: Bolt_Short v1:4
+    400766: Bolt_Short v1:40
+    400768: Bolt_Short v1:5
+    400770: Bolt_Short v1:6
+    400772: Bolt_Short v1:7
+    400774: Bolt_Short v1:8
+    400776: Bolt_Short v1:9
+    400778: BottomPart
+    400780: ClawHolder
+    400782: ClawPart v1
+    400784: ClawPart v1:1
+    400786: Component1
+    400788: Component1 1
+    400790: Component1 2
+    400792: Component12
+    400794: Component12:1
+    400796: Component1:1
+    400798: Component1:1 1
+    400800: Component1:1 2
+    400802: Component4
+    400804: Component4:1
+    400806: Component5
+    400808: Component5:1
+    400810: Component6
+    400812: Component6:1
+    400814: Component_practice v4
+    400816: Component_practice v4:1
+    400818: distancer
+    400820: distancer (1)
+    400822: distancer (1) 1
+    400824: distancer (1):1
+    400826: distancer (1):2
+    400828: distancer:1
+    400830: Distancers_high
+    400832: Distancers_high:1
+    400834: Grip
+    400836: Grip:1
+    400838: L_Shaped
+    400840: L_Shaped:1
+    400842: LeftClaw
+    400844: LeftClaw (1)
+    400846: LeftClaw (1):1
+    400848: LeftClaw:1
+    400850: LeftLinker
+    400852: LeftLinker:1
+    400854: Long U-type servo bracket
+    400856: Long U-type servo bracket 1
+    400858: Long U-type servo bracket 2
+    400860: Long U-type servo bracket 3
+    400862: Long U-type servo bracket v13
+    400864: Long U-type servo bracket v13 1
+    400866: Long U-type servo bracket v13 2
+    400868: Long U-type servo bracket v13 3
+    400870: Long U-type servo bracket v13:1
+    400872: Long U-type servo bracket v13:2
+    400874: Long U-type servo bracket v13:3
+    400876: Long U-type servo bracket v13:4
+    400878: LowerMounter
+    400880: LowerMounter:1
+    400882: MainBody
+    400884: MainBody:1
+    400886: MainFrame
+    400888: MainFrame:1
+    400890: MiddlePart
+    400892: mini_bearing v2
+    400894: mini_bearing v2 1
+    400896: mini_bearing v2 2
+    400898: mini_bearing v2:1
+    400900: mini_bearing v2:2
+    400902: mini_bearing v2:3
+    400904: Mounter
+    400906: Mounter:1
+    400908: Nut v2
+    400910: Nut v2 1
+    400912: Nut v2 10
+    400914: Nut v2 11
+    400916: Nut v2 12
+    400918: Nut v2 13
+    400920: Nut v2 14
+    400922: Nut v2 15
+    400924: Nut v2 16
+    400926: Nut v2 17
+    400928: Nut v2 18
+    400930: Nut v2 19
+    400932: Nut v2 2
+    400934: Nut v2 20
+    400936: Nut v2 21
+    400938: Nut v2 22
+    400940: Nut v2 23
+    400942: Nut v2 24
+    400944: Nut v2 25
+    400946: Nut v2 26
+    400948: Nut v2 27
+    400950: Nut v2 28
+    400952: Nut v2 29
+    400954: Nut v2 3
+    400956: Nut v2 30
+    400958: Nut v2 31
+    400960: Nut v2 32
+    400962: Nut v2 33
+    400964: Nut v2 34
+    400966: Nut v2 35
+    400968: Nut v2 36
+    400970: Nut v2 37
+    400972: Nut v2 38
+    400974: Nut v2 39
+    400976: Nut v2 4
+    400978: Nut v2 40
+    400980: Nut v2 41
+    400982: Nut v2 42
+    400984: Nut v2 43
+    400986: Nut v2 44
+    400988: Nut v2 45
+    400990: Nut v2 46
+    400992: Nut v2 47
+    400994: Nut v2 48
+    400996: Nut v2 49
+    400998: Nut v2 5
+    401000: Nut v2 50
+    401002: Nut v2 51
+    401004: Nut v2 52
+    401006: Nut v2 53
+    401008: Nut v2 54
+    401010: Nut v2 55
+    401012: Nut v2 56
+    401014: Nut v2 57
+    401016: Nut v2 58
+    401018: Nut v2 59
+    401020: Nut v2 6
+    401022: Nut v2 60
+    401024: Nut v2 61
+    401026: Nut v2 7
+    401028: Nut v2 8
+    401030: Nut v2 9
+    401032: Nut v2:1
+    401034: Nut v2:1 1
+    401036: Nut v2:10
+    401038: Nut v2:10 1
+    401040: Nut v2:11
+    401042: Nut v2:11 1
+    401044: Nut v2:12
+    401046: Nut v2:13
+    401048: Nut v2:14
+    401050: Nut v2:15
+    401052: Nut v2:16
+    401054: Nut v2:17
+    401056: Nut v2:18
+    401058: Nut v2:19
+    401060: Nut v2:2
+    401062: Nut v2:2 1
+    401064: Nut v2:20
+    401066: Nut v2:21
+    401068: Nut v2:22
+    401070: Nut v2:23
+    401072: Nut v2:24
+    401074: Nut v2:25
+    401076: Nut v2:26
+    401078: Nut v2:27
+    401080: Nut v2:28
+    401082: Nut v2:29
+    401084: Nut v2:3
+    401086: Nut v2:3 1
+    401088: Nut v2:30
+    401090: Nut v2:31
+    401092: Nut v2:32
+    401094: Nut v2:33
+    401096: Nut v2:34
+    401098: Nut v2:35
+    401100: Nut v2:36
+    401102: Nut v2:37
+    401104: Nut v2:38
+    401106: Nut v2:39
+    401108: Nut v2:4
+    401110: Nut v2:4 1
+    401112: Nut v2:40
+    401114: Nut v2:41
+    401116: Nut v2:42
+    401118: Nut v2:43
+    401120: Nut v2:44
+    401122: Nut v2:45
+    401124: Nut v2:46
+    401126: Nut v2:47
+    401128: Nut v2:48
+    401130: Nut v2:49
+    401132: Nut v2:5
+    401134: Nut v2:5 1
+    401136: Nut v2:50
+    401138: Nut v2:51
+    401140: Nut v2:6
+    401142: Nut v2:6 1
+    401144: Nut v2:7
+    401146: Nut v2:7 1
+    401148: Nut v2:8
+    401150: Nut v2:8 1
+    401152: Nut v2:9
+    401154: Nut v2:9 1
+    401156: P_Shaped_component v5
+    401158: P_Shaped_component v5 1
+    401160: P_Shaped_component v5 2
+    401162: P_Shaped_component v5:1
+    401164: P_Shaped_component v5:2
+    401166: P_Shaped_component v5:3
+    401168: RightLinker
+    401170: RightLinker:1
+    401172: Rotator
+    401174: Rotator:1
+    401176: Servo_horns
+    401178: Servo_horns 1
+    401180: Servo_horns 2
+    401182: Servo_horns 3
+    401184: Servo_horns 4
+    401186: Servo_horns 5
+    401188: Servo_horns:1
+    401190: Servo_horns:1 1
+    401192: Servo_horns:1 2
+    401194: Servo_horns:1 3
+    401196: Servo_horns:1 4
+    401198: Servo_horns:1 5
+    401200: ServoBody
+    401202: ServoBody 1
+    401204: ServoBody 2
+    401206: ServoBody 3
+    401208: ServoBody 4
+    401210: ServoCorpus
+    401212: ServoCorpus 1
+    401214: ServoCorpus 2
+    401216: ServoCorpus 3
+    401218: ServoCorpus 4
+    401220: ServoCorpus 5
+    401222: ServoCorpus:1
+    401224: ServoCorpus:1 1
+    401226: ServoCorpus:1 2
+    401228: ServoCorpus:1 3
+    401230: ServoCorpus:1 4
+    401232: ServoCorpus:1 5
+    401234: ServoHorns v4
+    401236: ServoHorns v4 1
+    401238: ServoHorns v4 2
+    401240: ServoHorns v4 3
+    401242: ServoHorns v4 4
+    401244: ServoHorns v4:1
+    401246: ServoHorns v4:2
+    401248: ServoHorns v4:3
+    401250: ServoHorns v4:4
+    401252: ServoHorns v4:5
+    401254: ServoTip
+    401256: ServoTip 1
+    401258: ServoTip 2
+    401260: ServoTip 3
+    401262: ServoTip 4
+    401264: ServoTip 5
+    401266: ServoTowerPro v12
+    401268: ServoTowerPro v12:1
+    401270: ServoTowerPro v13
+    401272: ServoTowerPro v13 1
+    401274: ServoTowerPro v13 2
+    401276: ServoTowerPro v13 3
+    401278: ServoTowerPro v13 4
+    401280: ServoTowerPro v13:1
+    401282: ServoTowerPro v13:2
+    401284: ServoTowerPro v13:3
+    401286: ServoTowerPro v13:4
+    401288: ServoTowerPro v13:5
+    401290: TowerPro MG 996R
+    401292: TowerPro MG 996R 1
+    401294: TowerPro MG 996R 2
+    401296: TowerPro MG 996R 3
+    401298: TowerPro MG 996R 4
+    401300: TowerPro MG 996R 5
+    401302: TowerPro MG 996R:1
+    401304: TowerPro MG 996R:1 1
+    401306: TowerPro MG 996R:1 2
+    401308: TowerPro MG 996R:1 3
+    401310: TowerPro MG 996R:1 4
+    401312: TowerPro MG 996R:1 5
+    401314: unique_piece
+    401316: unique_piece 1
+    401318: unique_piece 2
+    401320: unique_piece 3
+    401322: unique_piece 4
+    401324: unique_piece v8
+    401326: unique_piece v8 1
+    401328: unique_piece v8 2
+    401330: unique_piece v8 3
+    401332: unique_piece v8 4
+    401334: unique_piece v8:1
+    401336: unique_piece v8:2
+    401338: unique_piece v8:3
+    401340: unique_piece v8:4
+    401342: unique_piece v8:5
+    401344: unique_piece:1
+    401346: unique_piece:1 1
+    401348: unique_piece:1 2
+    401350: unique_piece:1 3
+    401352: unique_piece:1 4
+    401354: UpperMounter
+    401356: UpperMounter:1
+    401358: UpperPart
+    401360: WireEntry
+    401362: WireEntry 1
+    401364: WireEntry 2
+    401366: WireEntry 3
+    401368: WireEntry 4
+    401370: Wires
+    401372: Wires 1
+    401374: Wires 2
+    401376: Wires 3
+    401378: Wires 4
+    2100000: Aluminum - finegrained
+    2100002: No Name
+    2100004: Chrome - Black
+    2100006: Copper - Patina
+    2100008: Rubber - Soft
+    2100010: Silicone Move
+    2100012: Silicone Orange
+    2100014: Silicone REd
+    2100016: Iron - Cast
+    2100018: Aluminum - Cast
+    2100020: Steel - Satin
+    2100022: Plastic - Matte (Blacky)
+    2100024: Chrome
+    2300000: Body1
+    2300002: Body1 1
+    2300004: Body1 10
+    2300006: Body1 100
+    2300008: Body1 101
+    2300010: Body1 102
+    2300012: Body1 103
+    2300014: Body1 104
+    2300016: Body1 105
+    2300018: Body1 106
+    2300020: Body1 107
+    2300022: Body1 108
+    2300024: Body1 109
+    2300026: Body1 11
+    2300028: Body1 110
+    2300030: Body1 111
+    2300032: Body1 112
+    2300034: Body1 113
+    2300036: Body1 114
+    2300038: Body1 115
+    2300040: Body1 116
+    2300042: Body1 117
+    2300044: Body1 118
+    2300046: Body1 119
+    2300048: Body1 12
+    2300050: Body1 120
+    2300052: Body1 121
+    2300054: Body1 122
+    2300056: Body1 123
+    2300058: Body1 124
+    2300060: Body1 125
+    2300062: Body1 126
+    2300064: Body1 127
+    2300066: Body1 128
+    2300068: Body1 129
+    2300070: Body1 13
+    2300072: Body1 130
+    2300074: Body1 131
+    2300076: Body1 132
+    2300078: Body1 133
+    2300080: Body1 134
+    2300082: Body1 135
+    2300084: Body1 136
+    2300086: Body1 137
+    2300088: Body1 138
+    2300090: Body1 139
+    2300092: Body1 14
+    2300094: Body1 140
+    2300096: Body1 141
+    2300098: Body1 142
+    2300100: Body1 143
+    2300102: Body1 144
+    2300104: Body1 145
+    2300106: Body1 146
+    2300108: Body1 147
+    2300110: Body1 148
+    2300112: Body1 149
+    2300114: Body1 15
+    2300116: Body1 150
+    2300118: Body1 151
+    2300120: Body1 152
+    2300122: Body1 153
+    2300124: Body1 154
+    2300126: Body1 155
+    2300128: Body1 156
+    2300130: Body1 157
+    2300132: Body1 158
+    2300134: Body1 159
+    2300136: Body1 16
+    2300138: Body1 160
+    2300140: Body1 161
+    2300142: Body1 162
+    2300144: Body1 163
+    2300146: Body1 164
+    2300148: Body1 165
+    2300150: Body1 166
+    2300152: Body1 167
+    2300154: Body1 168
+    2300156: Body1 169
+    2300158: Body1 17
+    2300160: Body1 170
+    2300162: Body1 171
+    2300164: Body1 172
+    2300166: Body1 173
+    2300168: Body1 174
+    2300170: Body1 175
+    2300172: Body1 176
+    2300174: Body1 177
+    2300176: Body1 178
+    2300178: Body1 179
+    2300180: Body1 18
+    2300182: Body1 180
+    2300184: Body1 181
+    2300186: Body1 182
+    2300188: Body1 183
+    2300190: Body1 184
+    2300192: Body1 185
+    2300194: Body1 186
+    2300196: Body1 187
+    2300198: Body1 19
+    2300200: Body1 2
+    2300202: Body1 20
+    2300204: Body1 21
+    2300206: Body1 22
+    2300208: Body1 23
+    2300210: Body1 24
+    2300212: Body1 25
+    2300214: Body1 26
+    2300216: Body1 27
+    2300218: Body1 28
+    2300220: Body1 29
+    2300222: Body1 3
+    2300224: Body1 30
+    2300226: Body1 31
+    2300228: Body1 32
+    2300230: Body1 33
+    2300232: Body1 34
+    2300234: Body1 35
+    2300236: Body1 36
+    2300238: Body1 37
+    2300240: Body1 38
+    2300242: Body1 39
+    2300244: Body1 4
+    2300246: Body1 40
+    2300248: Body1 41
+    2300250: Body1 42
+    2300252: Body1 43
+    2300254: Body1 44
+    2300256: Body1 45
+    2300258: Body1 46
+    2300260: Body1 47
+    2300262: Body1 48
+    2300264: Body1 49
+    2300266: Body1 5
+    2300268: Body1 50
+    2300270: Body1 51
+    2300272: Body1 52
+    2300274: Body1 53
+    2300276: Body1 54
+    2300278: Body1 55
+    2300280: Body1 56
+    2300282: Body1 57
+    2300284: Body1 58
+    2300286: Body1 59
+    2300288: Body1 6
+    2300290: Body1 60
+    2300292: Body1 61
+    2300294: Body1 62
+    2300296: Body1 63
+    2300298: Body1 64
+    2300300: Body1 65
+    2300302: Body1 66
+    2300304: Body1 67
+    2300306: Body1 68
+    2300308: Body1 69
+    2300310: Body1 7
+    2300312: Body1 70
+    2300314: Body1 71
+    2300316: Body1 72
+    2300318: Body1 73
+    2300320: Body1 74
+    2300322: Body1 75
+    2300324: Body1 76
+    2300326: Body1 77
+    2300328: Body1 78
+    2300330: Body1 79
+    2300332: Body1 8
+    2300334: Body1 80
+    2300336: Body1 81
+    2300338: Body1 82
+    2300340: Body1 83
+    2300342: Body1 84
+    2300344: Body1 85
+    2300346: Body1 86
+    2300348: Body1 87
+    2300350: Body1 88
+    2300352: Body1 89
+    2300354: Body1 9
+    2300356: Body1 90
+    2300358: Body1 91
+    2300360: Body1 92
+    2300362: Body1 93
+    2300364: Body1 94
+    2300366: Body1 95
+    2300368: Body1 96
+    2300370: Body1 97
+    2300372: Body1 98
+    2300374: Body1 99
+    2300376: Body2
+    2300378: Body2 1
+    2300380: Body2 2
+    2300382: Body2 3
+    2300384: Body2 4
+    2300386: Body5
+    2300388: BottomPart
+    2300390: ClawHolder
+    2300392: Long U-type servo bracket
+    2300394: Long U-type servo bracket 1
+    2300396: Long U-type servo bracket 2
+    2300398: Long U-type servo bracket 3
+    2300400: MiddlePart
+    2300402: ServoBody
+    2300404: ServoBody 1
+    2300406: ServoBody 2
+    2300408: ServoBody 3
+    2300410: ServoBody 4
+    2300412: ServoTip
+    2300414: ServoTip 1
+    2300416: ServoTip 2
+    2300418: ServoTip 3
+    2300420: ServoTip 4
+    2300422: ServoTip 5
+    2300424: UpperPart
+    2300426: WireEntry
+    2300428: WireEntry 1
+    2300430: WireEntry 2
+    2300432: WireEntry 3
+    2300434: WireEntry 4
+    2300436: Wires
+    2300438: Wires 1
+    2300440: Wires 2
+    2300442: Wires 3
+    2300444: Wires 4
+    3300000: Body1
+    3300002: Body1 1
+    3300004: Body1 10
+    3300006: Body1 100
+    3300008: Body1 101
+    3300010: Body1 102
+    3300012: Body1 103
+    3300014: Body1 104
+    3300016: Body1 105
+    3300018: Body1 106
+    3300020: Body1 107
+    3300022: Body1 108
+    3300024: Body1 109
+    3300026: Body1 11
+    3300028: Body1 110
+    3300030: Body1 111
+    3300032: Body1 112
+    3300034: Body1 113
+    3300036: Body1 114
+    3300038: Body1 115
+    3300040: Body1 116
+    3300042: Body1 117
+    3300044: Body1 118
+    3300046: Body1 119
+    3300048: Body1 12
+    3300050: Body1 120
+    3300052: Body1 121
+    3300054: Body1 122
+    3300056: Body1 123
+    3300058: Body1 124
+    3300060: Body1 125
+    3300062: Body1 126
+    3300064: Body1 127
+    3300066: Body1 128
+    3300068: Body1 129
+    3300070: Body1 13
+    3300072: Body1 130
+    3300074: Body1 131
+    3300076: Body1 132
+    3300078: Body1 133
+    3300080: Body1 134
+    3300082: Body1 135
+    3300084: Body1 136
+    3300086: Body1 137
+    3300088: Body1 138
+    3300090: Body1 139
+    3300092: Body1 14
+    3300094: Body1 140
+    3300096: Body1 141
+    3300098: Body1 142
+    3300100: Body1 143
+    3300102: Body1 144
+    3300104: Body1 145
+    3300106: Body1 146
+    3300108: Body1 147
+    3300110: Body1 148
+    3300112: Body1 149
+    3300114: Body1 15
+    3300116: Body1 150
+    3300118: Body1 151
+    3300120: Body1 152
+    3300122: Body1 153
+    3300124: Body1 154
+    3300126: Body1 155
+    3300128: Body1 156
+    3300130: Body1 157
+    3300132: Body1 158
+    3300134: Body1 159
+    3300136: Body1 16
+    3300138: Body1 160
+    3300140: Body1 161
+    3300142: Body1 162
+    3300144: Body1 163
+    3300146: Body1 164
+    3300148: Body1 165
+    3300150: Body1 166
+    3300152: Body1 167
+    3300154: Body1 168
+    3300156: Body1 169
+    3300158: Body1 17
+    3300160: Body1 170
+    3300162: Body1 171
+    3300164: Body1 172
+    3300166: Body1 173
+    3300168: Body1 174
+    3300170: Body1 175
+    3300172: Body1 176
+    3300174: Body1 177
+    3300176: Body1 178
+    3300178: Body1 179
+    3300180: Body1 18
+    3300182: Body1 180
+    3300184: Body1 181
+    3300186: Body1 182
+    3300188: Body1 183
+    3300190: Body1 184
+    3300192: Body1 185
+    3300194: Body1 186
+    3300196: Body1 187
+    3300198: Body1 19
+    3300200: Body1 2
+    3300202: Body1 20
+    3300204: Body1 21
+    3300206: Body1 22
+    3300208: Body1 23
+    3300210: Body1 24
+    3300212: Body1 25
+    3300214: Body1 26
+    3300216: Body1 27
+    3300218: Body1 28
+    3300220: Body1 29
+    3300222: Body1 3
+    3300224: Body1 30
+    3300226: Body1 31
+    3300228: Body1 32
+    3300230: Body1 33
+    3300232: Body1 34
+    3300234: Body1 35
+    3300236: Body1 36
+    3300238: Body1 37
+    3300240: Body1 38
+    3300242: Body1 39
+    3300244: Body1 4
+    3300246: Body1 40
+    3300248: Body1 41
+    3300250: Body1 42
+    3300252: Body1 43
+    3300254: Body1 44
+    3300256: Body1 45
+    3300258: Body1 46
+    3300260: Body1 47
+    3300262: Body1 48
+    3300264: Body1 49
+    3300266: Body1 5
+    3300268: Body1 50
+    3300270: Body1 51
+    3300272: Body1 52
+    3300274: Body1 53
+    3300276: Body1 54
+    3300278: Body1 55
+    3300280: Body1 56
+    3300282: Body1 57
+    3300284: Body1 58
+    3300286: Body1 59
+    3300288: Body1 6
+    3300290: Body1 60
+    3300292: Body1 61
+    3300294: Body1 62
+    3300296: Body1 63
+    3300298: Body1 64
+    3300300: Body1 65
+    3300302: Body1 66
+    3300304: Body1 67
+    3300306: Body1 68
+    3300308: Body1 69
+    3300310: Body1 7
+    3300312: Body1 70
+    3300314: Body1 71
+    3300316: Body1 72
+    3300318: Body1 73
+    3300320: Body1 74
+    3300322: Body1 75
+    3300324: Body1 76
+    3300326: Body1 77
+    3300328: Body1 78
+    3300330: Body1 79
+    3300332: Body1 8
+    3300334: Body1 80
+    3300336: Body1 81
+    3300338: Body1 82
+    3300340: Body1 83
+    3300342: Body1 84
+    3300344: Body1 85
+    3300346: Body1 86
+    3300348: Body1 87
+    3300350: Body1 88
+    3300352: Body1 89
+    3300354: Body1 9
+    3300356: Body1 90
+    3300358: Body1 91
+    3300360: Body1 92
+    3300362: Body1 93
+    3300364: Body1 94
+    3300366: Body1 95
+    3300368: Body1 96
+    3300370: Body1 97
+    3300372: Body1 98
+    3300374: Body1 99
+    3300376: Body2
+    3300378: Body2 1
+    3300380: Body2 2
+    3300382: Body2 3
+    3300384: Body2 4
+    3300386: Body5
+    3300388: BottomPart
+    3300390: ClawHolder
+    3300392: Long U-type servo bracket
+    3300394: Long U-type servo bracket 1
+    3300396: Long U-type servo bracket 2
+    3300398: Long U-type servo bracket 3
+    3300400: MiddlePart
+    3300402: ServoBody
+    3300404: ServoBody 1
+    3300406: ServoBody 2
+    3300408: ServoBody 3
+    3300410: ServoBody 4
+    3300412: ServoTip
+    3300414: ServoTip 1
+    3300416: ServoTip 2
+    3300418: ServoTip 3
+    3300420: ServoTip 4
+    3300422: ServoTip 5
+    3300424: UpperPart
+    3300426: WireEntry
+    3300428: WireEntry 1
+    3300430: WireEntry 2
+    3300432: WireEntry 3
+    3300434: WireEntry 4
+    3300436: Wires
+    3300438: Wires 1
+    3300440: Wires 2
+    3300442: Wires 3
+    3300444: Wires 4
+    4300000: Body1
+    4300002: Body1
+    4300004: ServoBody
+    4300006: ServoTip
+    4300008: WireEntry
+    4300010: Wires
+    4300012: Body1
+    4300014: Long U-type servo bracket
+    4300016: Body1
+    4300018: Body1
+    4300020: Body1
+    4300022: Body1
+    4300024: Body2
+    4300026: Body1
+    4300028: Body1
+    4300030: Body1
+    4300032: Body1
+    4300034: Body1
+    4300036: Body5
+    4300038: ClawHolder
+    4300040: UpperPart
+    4300042: ServoTip
+    4300044: MiddlePart
+    4300046: BottomPart
+    4300048: Body1
+    4300050: Body1
+    4300052: Body1
+    4300054: Body1
+    4300056: Body1
+    4300058: Body1
+    4300060: Body2
+    4300062: Body1
+    4300064: Body1
+    4300066: Body2
+    4300068: Body1
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
