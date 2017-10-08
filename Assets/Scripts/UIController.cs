@@ -16,9 +16,9 @@ public class UIController : MonoBehaviour {
 		GameManager.modelInstantiated = false;
 	}
 
-	public void chooseModel (Dropdown dropdown) {
+	public void chooseModel (int dropdown) {
 		HelloARController arController = gameObject.GetComponent<HelloARController> ();
-			switch (dropdown.value) {
+			switch (dropdown) {
 				case 0:
 				arController.robotObject.SetActive (false);
 				arController.andyObject.SetActive (true);
