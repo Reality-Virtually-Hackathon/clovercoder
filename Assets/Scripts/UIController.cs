@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using GoogleARCore.HelloAR;
 
 public class UIController : MonoBehaviour {
 
@@ -12,5 +13,21 @@ public class UIController : MonoBehaviour {
 			}
 		}
 		GameManager.modelInstantiated = false;
+	}
+
+	public void chooseModel (string modelType) {
+		HelloARController arController = gameObject.GetComponent<HelloARController> ();
+		if (GameManager.modelInstantiated) {
+			switch (modelType) {
+				case "andy":
+					arController.andyObject.SetActive (true);
+					arController.robotObject.SetActive (false);
+					break;
+				case "robot": 
+					arController.robotObject.SetActive (true);
+					arController.andyObject.SetActive (false);
+					break;
+			}
+		}
 	}
 }

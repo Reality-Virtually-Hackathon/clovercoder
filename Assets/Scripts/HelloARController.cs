@@ -45,6 +45,7 @@ namespace GoogleARCore.HelloAR
         /// </summary>
         public GameObject m_andyAndroidPrefab;
 		public GameObject m_robotPrefab;
+		public GameObject andyObject, robotObject;
 
         /// <summary>
         /// A gameobject parenting UI for displaying the "searching for planes" snackbar.
@@ -140,7 +141,7 @@ namespace GoogleARCore.HelloAR
 
                 // Intanstiate an Andy Android object as a child of the anchor; it's transform will now benefit
                 // from the anchor's tracking.
-                var andyObject = Instantiate(m_andyAndroidPrefab, hit.Point, Quaternion.identity,
+                andyObject = Instantiate(m_andyAndroidPrefab, hit.Point, Quaternion.identity,
                     anchor.transform);
 
                 // Andy should look at the camera but still be flush with the plane.
@@ -158,7 +159,7 @@ namespace GoogleARCore.HelloAR
 
 				// Intanstiate an Andy Android object as a child of the anchor; it's transform will now benefit
 				// from the anchor's tracking.
-				var robotObject = Instantiate(m_robotPrefab, hit.Point, Quaternion.identity,
+				robotObject = Instantiate(m_robotPrefab, hit.Point, Quaternion.identity,
 					anchorRobot.transform);
 
 				// Andy should look at the camera but still be flush with the plane.
@@ -170,6 +171,8 @@ namespace GoogleARCore.HelloAR
 				// (occurs after anchor updates).
 				robotObject.GetComponent<PlaneAttachment>().Attach(hit.Plane);
 
+				robotObject.SetActive (false);
+				andyObject.SetActive (false);
             }
         }
 
