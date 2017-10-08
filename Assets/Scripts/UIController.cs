@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using GoogleARCore.HelloAR;
+using UnityEngine.UI;
 
 public class UIController : MonoBehaviour {
 
@@ -15,17 +16,17 @@ public class UIController : MonoBehaviour {
 		GameManager.modelInstantiated = false;
 	}
 
-	public void chooseModel (string modelType) {
+	public void chooseModel (Dropdown dropdown) {
 		HelloARController arController = gameObject.GetComponent<HelloARController> ();
 		if (GameManager.modelInstantiated) {
-			switch (modelType) {
-				case "andy":
-					arController.andyObject.SetActive (true);
-					arController.robotObject.SetActive (false);
+			switch (dropdown.value) {
+				case 0:
+				arController.andyObject.GetComponent<MeshRenderer>().enabled = true;
+				arController.robotObject.GetComponent<MeshRenderer>().enabled = false;
 					break;
-				case "robot": 
-					arController.robotObject.SetActive (true);
-					arController.andyObject.SetActive (false);
+				case 1: 
+				arController.robotObject.GetComponent<MeshRenderer>().enabled = true;
+				arController.andyObject.GetComponent<MeshRenderer>().enabled = false;
 					break;
 			}
 		}

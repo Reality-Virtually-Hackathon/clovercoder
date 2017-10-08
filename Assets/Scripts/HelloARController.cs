@@ -171,8 +171,8 @@ namespace GoogleARCore.HelloAR
 				// (occurs after anchor updates).
 				robotObject.GetComponent<PlaneAttachment>().Attach(hit.Plane);
 
-				robotObject.SetActive (false);
-				andyObject.SetActive (false);
+				robotObject.GetComponent<MeshRenderer>().enabled = false;
+				andyObject.GetComponent<MeshRenderer>().enabled = false;
             }
         }
 
