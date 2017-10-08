@@ -43,8 +43,7 @@ namespace GoogleARCore.HelloAR
         /// <summary>
         /// A model to place when a raycast from a user touch hits a plane.
         /// </summary>
-        public GameObject m_andyAndroidPrefab;
-		public GameObject m_robotPrefab;
+        public GameObject m_andyAndroidPrefab, m_robotPrefab;
 		public GameObject andyObject, robotObject;
 
         /// <summary>
@@ -73,6 +72,9 @@ namespace GoogleARCore.HelloAR
             new Color(1.0f, 0.921f, 0.231f),
             new Color(1.0f, 0.756f, 0.027f)
         };
+
+		public void Start () {
+		}
 
         /// <summary>
         /// The Unity Update() method.
@@ -133,6 +135,7 @@ namespace GoogleARCore.HelloAR
 
 			if (!GameManager.modelInstantiated && Session.Raycast(m_firstPersonCamera.ScreenPointToRay(touch.position), raycastFilter, out hit))
             {
+
 				GameManager.modelInstantiated = true;
 
                 // Create an anchor to allow ARCore to track the hitpoint as understanding of the physical
@@ -148,6 +151,8 @@ namespace GoogleARCore.HelloAR
                 andyObject.transform.LookAt(m_firstPersonCamera.transform);
                 andyObject.transform.rotation = Quaternion.Euler(0.0f,
                     andyObject.transform.rotation.eulerAngles.y, andyObject.transform.rotation.z);
+
+				andyObject.SetActive (false);
 
                 // Use a plane attachment component to maintain Andy's y-offset from the plane
                 // (occurs after anchor updates).
@@ -167,12 +172,12 @@ namespace GoogleARCore.HelloAR
 				robotObject.transform.rotation = Quaternion.Euler(0.0f,
 					robotObject.transform.rotation.eulerAngles.y, robotObject.transform.rotation.z);
 
+				robotObject.SetActive (false);
+
 				// Use a plane attachment component to maintain Andy's y-offset from the plane
 				// (occurs after anchor updates).
 				robotObject.GetComponent<PlaneAttachment>().Attach(hit.Plane);
 
-				robotObject.GetComponent<MeshRenderer>().enabled = false;
-				andyObject.GetComponent<MeshRenderer>().enabled = false;
             }
         }
 
