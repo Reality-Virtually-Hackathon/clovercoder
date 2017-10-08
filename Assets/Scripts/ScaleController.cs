@@ -8,7 +8,6 @@ public class ScaleController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		
 	}
 
 	void Update()
@@ -16,8 +15,12 @@ public class ScaleController : MonoBehaviour {
 		// If there are two touches on the device...
 		if (Input.touchCount == 2)
 		{
-			if (mainModel != null) {
-				mainModel = GameObject.FindGameObjectWithTag ("CurrentModel");
+			if (!mainModel) {
+				if (GameManager.modelInstantiated) {
+					mainModel = GameObject.FindGameObjectWithTag ("CurrentModel");
+				} else {
+					return;
+				}
 			}
 
 			// Store both touches.
@@ -35,7 +38,7 @@ public class ScaleController : MonoBehaviour {
 			// Find the difference in the distances between each frame.
 			float deltaMagnitudeDiff = prevTouchDeltaMag - touchDeltaMag;
 
-			float weightedDiff = deltaMagnitudeDiff;
+			float weightedDiff = -deltaMagnitudeDiff * 0.005F;
 
 			mainModel.transform.localScale = new Vector3 (mainModel.transform.localScale.x + weightedDiff, 
 															mainModel.transform.localScale.y + weightedDiff,
