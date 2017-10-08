@@ -44,6 +44,7 @@ namespace GoogleARCore.HelloAR
         /// A model to place when a raycast from a user touch hits a plane.
         /// </summary>
         public GameObject m_andyAndroidPrefab;
+		public GameObject m_robotPrefab;
 
         /// <summary>
         /// A gameobject parenting UI for displaying the "searching for planes" snackbar.
@@ -150,6 +151,25 @@ namespace GoogleARCore.HelloAR
                 // Use a plane attachment component to maintain Andy's y-offset from the plane
                 // (occurs after anchor updates).
                 andyObject.GetComponent<PlaneAttachment>().Attach(hit.Plane);
+
+				// Create an anchor to allow ARCore to track the hitpoint as understanding of the physical
+				// world evolves.
+				var anchorRobot = Session.CreateAnchor(hit.Point, Quaternion.identity);
+
+				// Intanstiate an Andy Android object as a child of the anchor; it's transform will now benefit
+				// from the anchor's tracking.
+				var robotObject = Instantiate(m_robotPrefab, hit.Point, Quaternion.identity,
+					anchorRobot.transform);
+
+				// Andy should look at the camera but still be flush with the plane.
+				robotObject.transform.LookAt(m_firstPersonCamera.transform);
+				robotObject.transform.rotation = Quaternion.Euler(0.0f,
+					robotObject.transform.rotation.eulerAngles.y, robotObject.transform.rotation.z);
+
+				// Use a plane attachment component to maintain Andy's y-offset from the plane
+				// (occurs after anchor updates).
+				robotObject.GetComponent<PlaneAttachment>().Attach(hit.Plane);
+
             }
         }
 

@@ -5,9 +5,11 @@ using UnityEngine;
 public class UIController : MonoBehaviour {
 
 	public void closeView () {
-		GameObject currentModel = GameObject.FindGameObjectWithTag ("CurrentModel");
-		if (currentModel != null) {
-			GameObject.Destroy (currentModel);
+		GameObject[] currentModels = GameObject.FindGameObjectsWithTag ("CurrentModel");
+		foreach (GameObject currentModel in currentModels) {
+			if (currentModel != null) {
+				GameObject.Destroy (currentModel);
+			}
 		}
 		GameManager.modelInstantiated = false;
 	}
